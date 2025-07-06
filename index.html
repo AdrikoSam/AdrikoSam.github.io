@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Portfolio.css">
+    
+</head>
+<body>
+    <!-- Header section -->
+<nav class="navbar navbar-expand-lg text-white fixed-top">
+   <div class="container-fluid">
+    <a class="tit navbar-brand" href="#">ADRIKO<strong style="color: white;">
+      <img src="samotech.png" alt="" width="100px">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="background-color: white;"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style=" color:rgb(8, 8, 83);">
+      <div class="offcanvas-header" style=" background-color:rgb(8, 8, 83);">
+        <h5 class="tit offcanvas-title" id="offcanvasNavbarLabel"><strong style="color: white;"><img src="samotech.png" alt="" width="100px"></h5>
+        <button type="button" id="but" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style=" background-color: white;"></button>
+      </div>
+      <div class="offcanvas-body" style=" color:rgb(8, 8, 83);">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+          <li class="nav-item">
+            <a class="nav-link active"  aria-current="page" href="#"><strong style="color: white;"><button class="bt">Home</button></strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about"><strong style="color: white;"><button class="bt">About Me</button></strong></a>
+          </li>
+          <li>
+            <a class="nav-link active" href="#Portfolio"><strong style="color: white;"><button class="bt">Portfolio</button></strong></a>
+          </li>
+          <li>
+            <a class="nav-link active" href="#contact"><strong style="color: white"><button class="bt">Contact Me</button></strong></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+
+<section id="hero "class="min-vh-100 d-flex align-items-center text-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <p>
+          <h3 class="welcome fw-semibold display-3" >Hello, I'm ADRIKO</h3>
+          <h3 class="welcome fw-semibold display-3">Front-End Developer</h3>
+          <h5 class="text-muted" >A world where creativity is limitless is where i thrive.</h5>
+        </p>
+            <div>
+              <a href="#contact" class="btn btn-primary">Hire Me</a>
+              <a href="adriko-CV.pdf"  class="btn btn-primary" download>Download My CV</a>
+            </div>
+      </div>
+      <div class="pic col-md-2">
+        <img src="adriko.jpg" alt="" class="ko" style="object-fit: cover;"  height="70%" >
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="about bg-light" id="about">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <h1 class="fw-bold display-5">About Me</h1>
+      <p class="lead text-muted">Creative. Reliable. Results-driven.</p>
+    </div>
+
+    <div class="card shadow-lg mb-5 border-0">
+      <div class="card-body text-center">
+        <h4 class="card-title mb-3">
+          <i class="fas fa-user-circle fa-2x text-primary"></i><br>Hi, I'm <strong>Adriko</strong>
+        </h4>
+        <p class="card-text fs-5">
+          A passionate <strong>Website Designer & Developer</strong><br>
+          Specializing in <strong>Front-End</strong> and <strong>Back-End Development</strong>
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-4 mb-5">
+      <div class="col-md-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-header bg-primary text-white fw-bold">
+            <i class="fas fa-tools me-2"></i>My skillset
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled fs-6">
+              <li><i class="fas fa-check-circle text-muted me-2"></i><strong>Website Design:</strong> Clean, responsive layouts</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i><strong>Front-End:</strong> HTML, CSS, JavaScript</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i><strong>Back-End:</strong> PHP, MySQL, Node.js</li>
+              <!-- <li><i class="fas fa-check-circle text-success me-2"></i><strong>Full-Stack:</strong> End-to-end deployment</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-header bg-primary text-white fw-bold">
+            <i class="fas fa-handshake me-2"></i>Work With Me.
+          </div>
+          <div class="card-body">
+            <p class="mb-3"><i class="fas fa-lightbulb text-warning me-2"></i>
+              I value <strong>simplicity, scalability, and smart design</strong>.</p>
+            <p><i class="fas fa-clock text-info me-2"></i>
+              I prioritize <strong>clear communication</strong>, hitting deadlines, and <strong>client satisfaction</strong>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card shadow-sm text-center border-0 ">
+      <div class="card-body">
+        <h4 class="card-title mb-3">
+          <i class="fas fa-rocket fa-lg text-danger"></i><br>Let’s Build Something Great
+        </h4>
+        <p class="lead">If you're looking for someone creative, reliable, and ready to build your vision—I'm your guy.</p>
+        <a href="#contact" class="btn btn-primary mt-3 px-4 py-2">Let's Connect</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Portfolio -->
+<section id="Portfolio">
+  <div class="container py-5" >
+    <div class="text-center mb-5">
+      <h1 class="fw-bold" >My Portfolio</h1>
+      <p class="lead">Explore some of the projects I've worked on as a designer & developer.</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Portfolio Project 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <img src="cosmic.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-globe"></i> Cosmic Impact wave Foundation website</h5>
+            <p class="card-text">A clean and responsive website built for an NGO called cosmic impact wave foundation to show their information.</p>
+            <a href="Cosmic Impact/Homepage.html" class="btn btn-outline-primary btn-sm">View Live</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Project 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <img src="rona.jpeg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-store"></i> Patient Record management system</h5>
+            <p class="card-text">A website that digitally manages all patient records enabling access to medical records any time and anywhere.</p>
+            <a href="#" class="Cosmic Impact/Homepage.html">View Live</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Project 3 -->
+      <!-- <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <img src="images/rona.jpeg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-mobile-alt"></i> Responsive Landing Page</h5>
+            <p class="card-text">A high-converting landing page designed for mobile-first experiences and fast load times.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Live</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Add more projects as needed below -->
+    </div>
+  </div>
+</section>
+
+
+ <!-- contact me -->
+  <section id="contact">
+      <div class="container py-5">
+    <div class="text-center mb-5">
+      <h1 class="fw-bold">Contact Me</h1>
+      <p class="lead">Have a project in mind or just want to say hello? I'd love to hear from you!</p>
+    </div>
+
+
+<!-- Contact Card -->
+<div class="card p-4 shadow rounded-4">
+  <h5 class="card-title mb-4 text-center">Contact Me</h5>
+  <div class="row row-cols-1 row-cols-sm-2 g-3">
+
+    <!-- WhatsApp -->
+    <div class="col text-center">
+      <a href="https://wa.me/0775374659" target="_blank" class="text-decoration-none d-block p-3 border rounded-3 hover-effect">
+        <i class="bi bi-whatsapp" style="font-size: 30px; color: white;"></i>
+        <div><strong style="color: white;">WhatsApp</strong></div>
+      </a>
+    </div>
+
+    <!-- GitHub -->
+    <div class="col text-center">
+      <a href="https://github.com/AdrikoSam" target="_blank" class="text-decoration-none d-block p-3 border rounded-3 hover-effect">
+        <i class="bi bi-github" style="font-size: 30px; color: white;"></i>
+        <div><strong style="color: white;">Visit my GitHub</strong></div>
+      </a>
+    </div>
+
+    <!-- Email -->
+    <div class="col text-center">
+      <a href="mailto:adrikoman2@gmail.com" target="_blank" class="text-decoration-none d-block p-3 border rounded-3 hover-effect">
+        <i class="bi bi-envelope-at-fill" style="font-size: 30px; color: white"></i>
+        <div><strong style="color: white;">Send me an Email</strong></div>
+      </a>
+    </div>
+
+    <!-- Phone -->
+    <div class="col text-center">
+      <a href="tel:+256775374659" target="_blank" class="text-decoration-none d-block p-3 border rounded-3 hover-effect">
+        <i class="bi bi-telephone-outbound-fill" style="font-size: 30px; color: white;"></i>
+        <div><strong style="color: white">Call Me: +256 775 374 659</strong></div>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </div>
+  </section>
+<footer class="foot text-white mt-5 py-4">
+  <div class="container text-center">
+    <p class="mb-2">copyright © 2025 Adriko. All Rights Reserved.</p>
+    <div>
+        <a href="https://twitter.com" target="_blank" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com" target="_blank" class="text-white me-3"><i class="fab fa-github"></i></a>
+        <a href="mailto:your@email.com" class="text-white me-3"><i class="fas fa-envelope"></i></a>
+        <a href="#" class="text-white"><i class="fas fa-globe"></i></a>
+    </div>
+    <div class="socials">
+      <span>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-github"></i>
+        <i class="bi bi-gmail"></i>
+        <i class="bi bi-envelope-at-fill"></i>
+      </span>
+    </div>
+  </div>
+ </footer>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
