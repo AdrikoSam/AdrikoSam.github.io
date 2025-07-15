@@ -8,6 +8,7 @@
   
 }
 
+
 .tit img{
   /* height: 30px; */
   margin-top: -14px;
@@ -24,7 +25,7 @@
 }
 .welcome{
   color: blue;
-  /* margin-top: 40px; */
+  margin-top: 100px;
 }
 
 body {
@@ -33,7 +34,9 @@ body {
   padding: 0;
   line-height: 1.6;
 }
-
+#about{
+  color: black;
+}
 .about-section {
   padding: 40px 20px;
   /* background-color: white; */
@@ -83,7 +86,7 @@ a{
    transition: 0.3s;
 }
 .card-body:hover{
-    background-color:  rgb(4, 134, 178);
+    background-color:  rgba(7, 3, 226, 0.748);
 }
 
 .card-header {
@@ -121,7 +124,7 @@ footer{
   .bt:hover{
      transform: translateY(-3px);
      transition: 0.75s;
-     background-color:  blue;
+     background-color:  rgb(3, 3, 152);
   }
   .btn-close{
     background-color: white;
